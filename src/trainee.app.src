@@ -1,0 +1,15 @@
+{application, trainee, [
+    {description, "Example for \"Testing Done PropEr\" talk at CodeBEAM 2022"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {trainee_app, []}},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {modules, []},
+
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+]}.
