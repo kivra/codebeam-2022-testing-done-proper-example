@@ -51,7 +51,9 @@ init([]) ->
         intensity => 0,
         period => 1
     },
-    ChildSpecs = [],
+    ChildSpecs = [
+        trainee_db:child_spec()
+    ],
     {ok, {SupFlags, ChildSpecs}}.
 
 %%%_* Private ----------------------------------------------------------------
